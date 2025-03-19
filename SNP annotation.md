@@ -20,8 +20,9 @@ vep_install -a cf -s ovis_aries -y /path/to/ARS-UI_Ramb_v2.0 --CONVERT #For shee
 vep_install -a cf -s capra_hircus -y /path/to/ARS1 --CONVERT #For goat (genome assembly: ARS1)
 
 #Prepare Your SNP List - Input files
+Check the website at https://www.ensembl.org/info/docs/tools/vep/vep_formats.html#default
 
-For example, in default VEP format (https://www.ensembl.org/info/docs/tools/vep/vep_formats.html#default):
+For example, in default VEP format:
 
 1   881907    881906    -/C   
 2   946507    946507    G/C   
