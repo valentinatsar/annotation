@@ -1,4 +1,4 @@
-# SNP annotation - Variant Effect Predictor 
+# 2. SNP annotation - Variant Effect Predictor 
 (running VEP https://www.ensembl.org/info/docs/tools/vep/script/vep_options.html)
 
 ```bash
