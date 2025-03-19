@@ -1,4 +1,4 @@
-# Convert genome coordinates/assembly 
+# 1. Convert genome coordinates/assembly 
 CrossMap - genome coordinates conversion between different assemblies ((https://crossmap.sourceforge.net/)
 
 Supports BED/BedGraph, GFF/GTF, BAM/SAM/CRAM, BigWig/Wig, VCF, and MAF format files
