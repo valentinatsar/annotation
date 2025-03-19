@@ -22,3 +22,11 @@ vep_install -a cf -s capra_hircus -y /path/to/ARS1 --CONVERT #For goat (genome a
 3. Prepare Your SNP List - Input files
 
 For example, in default VEP format (https://www.ensembl.org/info/docs/tools/vep/vep_formats.html#default)
+
+1   881907    881906    -/C   +
+2   946507    946507    G/C   +
+5   140532    140532    T/C   +
+8   150029    150029    A/T   +    var2
+12  1017956   1017956   T/A   +
+14  19584687  19584687  C/T   -
+19  66520     66520     G/A   +    var1
