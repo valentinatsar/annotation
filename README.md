@@ -1,5 +1,6 @@
-# Convert genome coordinates (https://crossmap.sourceforge.net/#convert-bed-format-files)
-CrossMap - Supports BED/BedGraph, GFF/GTF, BAM/SAM/CRAM, BigWig/Wig, VCF, and MAF format files
+# Convert genome coordinates 
+CrossMap - https://crossmap.sourceforge.net/#convert-bed-format-files)
+Supports BED/BedGraph, GFF/GTF, BAM/SAM/CRAM, BigWig/Wig, VCF, and MAF format files
 
 ```bash
 #Load the software
