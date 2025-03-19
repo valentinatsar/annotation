@@ -19,7 +19,7 @@ conda install bioconda::ensembl-vep=113.3
 vep_install -a cf -s ovis_aries -y /path/to/ARS-UI_Ramb_v2.0 --CONVERT #For sheep (genome assembly: ARS-UI_Ramb_v2.0)
 vep_install -a cf -s capra_hircus -y /path/to/ARS1 --CONVERT #For goat (genome assembly: ARS1)
 
-3. Prepare Your SNP List - Input files
+#Prepare Your SNP List - Input files
 
 For example, in default VEP format (https://www.ensembl.org/info/docs/tools/vep/vep_formats.html#default):
 
@@ -31,4 +31,12 @@ For example, in default VEP format (https://www.ensembl.org/info/docs/tools/vep/
 14  19584687  19584687  C/T   
 19  66520     66520     G/A
 
+#Run VEP for SNP Annotation
+#sheep
+vep -i input_snp_list.Ensembl --cache -s ovis_aries --distance 200000 -o /path/to/sheep_annotated_snps.Ensembl ## output file formats Ensembl/vcf etc.
 
+#goat
+vep -i input_snp_list.Ensembl --cache -s capra_hircus --distance 200000 -o /path/to/goat_annotated_snps.Ensembl
+
+#Vep Parameters
+vep --help
