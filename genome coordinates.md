@@ -1,5 +1,5 @@
 # Convert genome coordinates/assembly 
-CrossMap (https://crossmap.sourceforge.net/)
+CrossMap - genome coordinates conversion between different assemblies ((https://crossmap.sourceforge.net/)
 Supports BED/BedGraph, GFF/GTF, BAM/SAM/CRAM, BigWig/Wig, VCF, and MAF format files
 
 ```bash
@@ -10,5 +10,5 @@ source /mnt/apps/custom/python-envs/crossmap/bin/activate
 # Software usage
 CrossMap -h
 
-cd path/to/your/input/files
-CrossMap bed oviAri4ToGCF_016772045.1.over.chain.gz test.bed
+# Convert genome coordinates using the appropriate chain file
+CrossMap bed path/to/oviAri4ToGCF_016772045.1.over.chain.gz path/to/test.bed
