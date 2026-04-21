@@ -1,6 +1,6 @@
 #### gprofiler2 package - Functional Enrichment Analysis ####
 
-install.packages(gprofiler2)
+install.packages("gprofiler2")
 library(gprofiler2)
 
 ##Annotate multiple genes lists simultaneously, each corresponding to different genomic region ##
